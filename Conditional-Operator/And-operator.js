@@ -3,4 +3,4 @@ const myObj = {
 	age: 24,
 };
 
-(myObj.name || myObj.age)
+(myObj.name || myObj.age) && console.log(`Name: ${myObj.name} Age: ${myObj.age}`);
