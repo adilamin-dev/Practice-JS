@@ -6,8 +6,8 @@ var obj = {
   Thailand: 'Bangkok'
 }
 
-for (name in obj){
-  console.log(`${name}'s capital name is ${obj[name]}.`)
+for (kname in obj){
+  console.log(`${kname}'s capital name is ${obj[kname]}.`)
 }
 
 //console.log(obj.constructor === Object)
